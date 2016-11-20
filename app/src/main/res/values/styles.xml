@@ -1,0 +1,34 @@
+<resources>
+    <style name="Base"/>
+    <style name="Base.Theme"/>
+    <style name="Base.Theme.ReaderView"/>
+
+    <style name="Theme.ReaderView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Base.Theme.ReaderView.Translucent" parent="Theme.ReaderView">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ReaderView.Translucent" parent="Base.Theme.ReaderView.Translucent" />
+
+    <style name="TextAppearance"/>
+    <style name="TextAppearance.ReaderView"/>
+    <style name="TextAppearance.ReaderView.Headline" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="TextAppearance.ReaderView.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="TextAppearance.ReaderView.Subhead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.ReaderView.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
